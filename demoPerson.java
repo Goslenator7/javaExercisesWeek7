@@ -8,6 +8,7 @@ public class demoPerson {
         p1.setAddress("Edinburgh");
         p1.setAge(39);
 
+        p1.happyBirthday();
         p1.printDetails();
     }
 }

@@ -22,6 +22,10 @@ public class Person {
         JOptionPane.showMessageDialog(null, output);
     }
 
+    public void happyBirthday() {
+        this.age = getAge()+1;
+    }
+
     // Getter and setter for name
     public String getName() {
         return this.name;
